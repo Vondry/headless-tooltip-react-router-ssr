@@ -18,7 +18,7 @@ export function TooltipHomepage() {
             <SSR_HeadlessTooltip {...commonProps}/>
 
             {/* UNCOMMENT BELOW AND REFRESH BROWSER TO GET SSR ERROR */}
-            {/*<Tooltip {...commonProps} />*/}
+            <Tooltip {...commonProps} />
         </main>
     );
 }
